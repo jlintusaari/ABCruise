@@ -1,0 +1,83 @@
+
+.home-menu {
+    -webkit-font-smoothing: antialiased;
+    height: 2.9em;
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+
+/*This controls the size of the dropdown menu*/
+.home-menu.open {
+    height: 9em;
+}
+
+
+.pure-menu-fixed {
+    width: 100%;
+}
+
+.custom-toggle {
+    width: 3em;
+    height: 3em;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.custom-toggle .bar {
+    background-color: white;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 100px;
+    position: absolute;
+    top: 1.5em;
+    right: 1em;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.custom-toggle .bar:first-child {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+.custom-toggle.x .bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-toggle.x .bar:first-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 30em) {
+
+    #menu .pure-menu-list {
+	display: block;
+    }
+
+    /*#menu.open .pure-menu-list {
+	display: block;
+    }*/
+
+    .custom-toggle {
+	display: block;
+    }
+
+}
