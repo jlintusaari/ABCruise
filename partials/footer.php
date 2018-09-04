@@ -1,4 +1,4 @@
 
 <div class="footer">
-  Page created by <a target="_blank" href="https://users.ics.aalto.fi/jlintusa/">Jarno Lintusaari</a>
+  Created by <a target="_blank" href="https://jlintusaari.github.io">Jarno Lintusaari</a> using <a target="_blank" href="https://purecss.io/">Pure.css</a>
 </div>

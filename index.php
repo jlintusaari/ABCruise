@@ -170,7 +170,7 @@
 	      <a target="_blank" href="https://users.ics.aalto.fi/sami/">Samuel Kaski</a>, 
 	      <a target="_blank" href="https://users.ics.aalto.fi/dutta/">Ritabrata Dutta</a>, 
 	      <a target="_blank" href="https://sites.google.com/site/michaelgutmann/">Michael Gutmann</a>, 	      
-              <a target="_blank" href="https://users.ics.aalto.fi/jlintusa/">Jarno Lintusaari</a>.
+              <a target="_blank" href="https://jlintusaari.github.io">Jarno Lintusaari</a>.
             </p>
 
           </div>
